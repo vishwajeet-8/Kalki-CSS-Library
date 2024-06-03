@@ -1,3 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  color: inherit;
+  margin: 0;
+}
+
 body {
+  background-color: rgb(237, 235, 235);
+  font-family: "Open Sans";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  height: 270px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 1px 2px 5px;
+  border-radius: 20px;
+  padding: 0.75rem;
+  margin: 0.75rem;
+}
+.card .card-title {
+  font-size: 2rem;
+  margin: 0.75rem;
+}
+.card .card-body {
+  margin: 0.75rem;
+}
+.card .button {
+  background-color: blue;
+  border-radius: 20px;
+  height: 30px;
+  width: 90px;
+  color: white;
+  margin-left: 0.75rem;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.bg-primary {
+  background-color: blue;
+}
+
+.text-secondary {
+  color: grey;
+}
+
+.bg-secondary {
+  background-color: grey;
+}
+
+.text-success {
+  color: green;
+}
+
+.bg-success {
+  background-color: green;
+}
+
+.text-warning {
+  color: yellow;
+}
+
+.bg-warning {
+  background-color: yellow;
+}
+
+.text-danger {
+  color: red;
+}
+
+.bg-danger {
   background-color: red;
+}
+
+.text-info {
+  color: cyan;
+}
+
+.bg-info {
+  background-color: cyan;
+}
+
+.text-light {
+  color: white;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.text-pink {
+  color: pink;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.text-brown {
+  color: brown;
+}
+
+.bg-brown {
+  background-color: brown;
+}
+
+.text-black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-purple {
+  color: purple;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
 }

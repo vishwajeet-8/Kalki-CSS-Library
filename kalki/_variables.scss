@@ -1,0 +1,39 @@
+//theme color
+$primary: blue;
+$secondary: grey;
+$success: green;
+$warning: yellow;
+$danger: red;
+$info: cyan;
+$light: white;
+
+// spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+//box shadow
+$base-box-shadow: 1px 2px 5px;
+
+//font size
+$base-font-size: 1rem;
+
+//color pallete
+$colors: (
+  "primary": blue,
+  "secondary": grey,
+  "success": green,
+  "warning": yellow,
+  "danger": red,
+  "info": cyan,
+  "light": white,
+  "orange": orange,
+  "pink": pink,
+  "brown": brown,
+  "black": black,
+  "purple": purple,
+  "white": white
+);

@@ -1,0 +1,27 @@
+.card {
+  height: 270px;
+  width: 300px;
+  background-color: $light;
+  box-shadow: $base-box-shadow;
+  border-radius: $base-border-radius;
+  padding: $base-padding;
+  margin: $base-margin;
+
+  .card-title {
+    font-size: $base-font-size * 2;
+    margin: $base-margin;
+  }
+
+  .card-body {
+    margin: $base-margin;
+  }
+
+  .button {
+    background-color: $primary;
+    border-radius: $base-border-radius;
+    height: 30px;
+    width: 90px;
+    color: $light;
+    margin-left: $base-margin;
+  }
+}
